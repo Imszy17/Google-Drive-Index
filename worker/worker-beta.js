@@ -16,7 +16,7 @@ const domains_for_dl = ['']; // add multiple cloudflare addresses to balance the
 const domain_for_dl = domains_for_dl[Math.floor(Math.random()*domains_for_dl.length)]; // DO NOT TOUCH THIS
 const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN', 'US', 'PK']
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "Imszy Drive Index", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -84,11 +84,11 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
+    "contact_link": "https://t.me/gmardiana", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
     "company_name": "Google Cloud", // Name next to copyright
-    "company_link": "https://telegram.dog/Telegram", // link of copyright name
-    "credit": true, // Set this to true to give us credit
+    "company_link": "https://t.me/feyystatus", // link of copyright name
+    "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
